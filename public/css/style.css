@@ -4,9 +4,8 @@ body {
 }
 
 
-h1, p {
+h1 {
 	color: #C6AE43;
-	font-size: 30px;
 	font-family: Helvetica;
 }
 
@@ -43,7 +42,7 @@ h1, p {
 }
 
 #contact-container {
-	margin-top: 200px;
+	margin-top: 170px;
 
 }
 
@@ -57,4 +56,14 @@ h1, p {
 
 .contact-item a:hover {
 	color: pink;
+}
+
+#projects-container {
+	margin-top: 170px;
+}
+
+.cardp {
+	font-size: 12px;
+	color: #C6AE43;
+	font-family: Helvetica;
 }
