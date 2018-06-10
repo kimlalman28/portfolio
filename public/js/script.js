@@ -9,6 +9,7 @@ $(".section-link").click(function(e) {
     }, 2000);
 });
 
+// typewritter effect for name
 var aText = new Array("Kimberly Lalmansingh");
 var iSpeed = 150; // time delay of print out
 var iIndex = 0; // start printing array at this posision
