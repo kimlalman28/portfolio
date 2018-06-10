@@ -1,7 +1,6 @@
 body {
 	margin: 0; !important
 	padding: 0; !important
-	background-color: #F9FFFD;
 }
 
 
@@ -18,11 +17,12 @@ body {
 #nav {
 	width: 100%;
 	min-height: 50px;
-	background-color: #F1686A;
+	background-color: #C7A3C8;
 }
 
 #nav a {
 	font-family: 'Courgette', cursive;
+	font-size: 20px;
 }
 
 #hero {
@@ -39,7 +39,7 @@ body {
 }
 
 #hero-name {
-	color: #C6AE43;
+	color: #C7A3C8;
 	font-size: 65px;
 }
 
@@ -60,7 +60,7 @@ body {
 }
 
 .contact-item a {
-	color: #F1686A;
+	color: #C7A3C8;
 }
 
 .contact-item a:hover {
@@ -68,7 +68,7 @@ body {
 }
 
 #projects-container {
-	background-color: #DDB3BC;
+	background-color: #C7A3C8;
 	padding: 3%;
 }
 
@@ -87,8 +87,8 @@ body {
 }
 
 .cardp {
-	font-size: 12px;
-	color: #F1686A;
+	font-size: 13px;
+	color: #C7A3C8;
 	font-family: 'Courgette', cursive;
 }
 
@@ -102,7 +102,11 @@ body {
 	padding: 4%;
 /*	padding-left: 10%;
 	padding-right: 10%;*/
-	background-color: #EDD7DD;
+	background-color: #C7A3C8;
+}
+
+#description p {
+	font-size: 20px;
 }
 
 #skills-container {
@@ -125,14 +129,13 @@ body {
 
 .skill-card h5, .skill-card h6 {
 	font-family: 'Courgette', cursive;
-	color: #F1686A;
+	color: #C7A3C8;
 }
 
 #footer-container {
 	width: 100%,
 	height: 50px;
-	background-color: #F1686A;
-	/*position: fixed;*/
+	background-color: #C7A3C8;
 	bottom: 0;
 }
 
