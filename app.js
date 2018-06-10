@@ -10,20 +10,24 @@ app.set('views,', './views');
 
 
 app.get('/', (req, res) => {
-	res.render('index');
+	res.render('portfolio-page');
 });
 
-app.get('/Contact', (req, res) => {
-	res.render('contact');
-})
+// app.get('/Contact', (req, res) => {
+// 	res.render('contact');
+// })
 
-app.get('/About-Me', (req, res) => {
-	res.render('about-me');
-})
+// app.get('/About-Me', (req, res) => {
+// 	res.render('about-me');
+// })
 
-app.get('/Projects', (req, res) => {
-	res.render('projects');
-})
+// app.get('/Projects', (req, res) => {
+// 	res.render('projects');
+// })
+
+// app.get('/home', (req, res) => {
+// 	res.render('portfolio-page');
+// })
 
 
 app.listen(port, () => {
