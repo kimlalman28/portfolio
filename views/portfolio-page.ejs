@@ -1,194 +1,184 @@
 <!doctype html>
 <html lang="en">
-    <head>
-        <% include ./partials/headers %>
-    </head>
-
-    <body>
-    	<div class="page">
-
-            <div class="container-fluid">
-                <div class="row">
-                    <% include ./partials/navbar %>
-
-                </div>
+  <head>
+    <% include ./partials/headers %>
+  </head>
+  <body>
+    <div class="page">
+      <div class="container-fluid">
+        <div class="row">
+          <% include ./partials/navbar %>
+        </div>
+      </div>
+      <div class="container-fluid" id="hero">
+        <div class="row text-center">
+          <div class="col-md-12">
+            <div id="photo">
+              <img src="imgs/pic.jpg">
             </div>
-
-    		<div class="container-fluid" id="hero">
-                <div class="row text-center">
-                    <div class="col-md-12">
-                        <div id="photo">
-                            <img src="imgs/pic.jpg">
-                        </div>
-                        <div id="hero-div">
-                            <h1 class="font" id="hero-name"></h1>
-                        </div>
-                    </div>
-                </div>
-    		</div>
-
-            <div class="container-fluid" id="description">
-                <div class="row text-center">
-                    <div class="col-md-12">
-                        <h2 class="font" style="margin-bottom: 30px; font-size: 45px">About Kimberly</h2>
-                        <p class="font">I am a recent graduate from CUNY Queens College with a Bachelor of Science in Computer Science and a minor in Mathematics. I am currently a Software Engineering Intern at a startup called SyncIoT. SyncIoT is an energy-saving software which integrates the Internet of Things, smart devices, and collects data and analytics commercially and residentially.</p>
-                        <p class="font">I am an alum of Tech Talent Pipeline (TTP) which is in partnership with NY Code + Design Academy. During my residency at TTP, I learned about the fundementals of Web Development which consisted of HTML, CSS, Javascript, JQuery, and Node.js with ExpressJS. After residency, I was placed at Queens Library where I interned as a Software Engineer.</p>
-                    </div>
-                </div>
+            <div id="hero-div">
+              <h1 class="font" id="hero-name"></h1>
             </div>
-
-            <div class="container-fluid" id="skills-container">
-                <div class="row justify-content-center">
-                    <h2 class="font" style="margin-bottom: 30px; font-size: 40px">Skills & Technologies</h2>
-                    <div class="card-deck col-md-10" style="margin-bottom: 10px">
-                        <div class="card skill-card border-0">
-                            <i class="fab fa-html5 card-img skill-icon"></i>
-                            <h5>HTML5</h5>
-                        </div>
-                        <div class="card skill-card border-0">
-                            <i class="fab fa-css3-alt skill-icon"></i>
-                            <h5>CSS3</h5>
-                        </div>
-                        <div class="card skill-card border-0">
-                            <i class="fab fa-js-square skill-icon"></i>
-                            <h5>Javascript</h5>
-                        </div>
-                        <div class="card skill-card border-0">
-                            <i class="fab fa-node-js skill-icon"></i>
-                            <h5>Node.js</h5>
-                        </div>
-                        <div class="card skill-card border-0">
-                            <img class="my-auto" src="imgs/Expressjs.png">
-                            <h5>ExpressJS</h5>
-                        </div>
-                        <div class="card skill-card border-0">
-                            <img class="my-auto" src="imgs/jquery.png">
-                            <h5>jQuery</h5>
-                        </div>
-                    </div>
-
-                    <div class="card-deck col-md-10" style="margin-bottom: 10px">
-                        <div class="card skill-card border-0">
-                            <img class="my-auto" src="imgs/mongodb.png">
-                            <h5>MongoDB</h5>
-                        </div>
-                        <div class="card skill-card border-0">
-                            <img class="my-auto" src="imgs/java.png">
-                            <h5>Java</h5>
-                        </div>
-                        <div class="card skill-card border-0">
-                            <img class="my-auto" src="imgs/cpp.png">
-                            <h5>C++</h5>
-                        </div>
-                        <div class="card skill-card border-0">
-                            <img class="my-auto" src="imgs/bootstrap.svg">
-                            <h5>Bootstrap</h5>
-                        </div>
-                        <div class="card skill-card border-0">
-                            <i class="fab fa-angular card-img skill-icon"></i>
-                            <h5>Angular</h5>
-                        </div>
-                        <div class="card skill-card border-0">
-                            <i class="fab fa-github card-img skill-icon"></i>
-                            <h6>Git/Github/Heroku</h6>
-                        </div>
-                    </div>
-                    <div class="card-deck col-md-10" style="margin-bottom: 10px">
-                        <div class="card skill-card border-0">
-                            <img class="my-auto" src="imgs/sql.jpeg">
-                            <h5>SQL/MySQL</h5>
-                        </div>
-                    </div>
-                </div>
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid" id="description">
+        <div class="row text-center">
+          <div class="col-md-12">
+            <h2 class="font" style="margin-bottom: 30px; font-size: 45px">About Kimberly</h2>
+            <p class="fontp">I am an experienced Full Stack Developer with strong knowledge in NodeJS and Javascript. I spend most of my free time learning new technologies and building on what I already know in order to use the best practices in my work. I am currently spending my days learning React and Redux to add on to my full stack abilities.</p>
+            <p class="fontp">I am currently a Full Stack Developer at a startup - SyncIoT Technologies. SyncIoT Technologies is a data and analytics service for residential and commercial buildings. Sensors are deployed throughout different rooms in a building and collect data on temperature, humidity and light levels. This information is then displayed on the website so users can monitor readings and set thresholds in which they would then be notified if those thresholds are crossed.</p>
+            <p class="fontp">I work with NodeJS, Express, Javascript, jQuery, MongoDB, Bootstrap, HTML, CSS, and a series of APIs on a daily basis. My tasks include, but is not limited to, building RESTful APIs with Express, architecting the UI/UX of multiple webpages throughout the site. Some features I have worked on are Account Creation, Google Login, Forgot Password, allowing users to set up sensors and monitor the data the device receives, giving users the ability to set thresholds on the devices.</p>
+            <p class="fontp">I am an alum of Tech Talent Pipeline (TTP) which is in partnership with NY Code + Design Academy. During my residency at TTP, I learned about the fundamentals of Web Development which consisted of HTML, CSS, Javascript, jQuery, AJAX, NodeJS, Express, and PostgreSQL. After the residency, I was placed at Queens Library where I interned as a Software Developer. During my time at Queens Library, I worked on improving the functionality of their digital archive website. I worked with Drupal, PHP, and Javascript. Some accomplishments include improving the user interface and user experience, decreasing load times for webpages, and refactoring legacy code and cleaning up the codebase.</p>
+            <p class="fontp">I graduated from Queens College in May of 2018, Magna Cum Laude with a Bachelor of Science in Computer Science and a minor in Mathematics. Majority of my knowledge of Java, C++, and SQL come from the highly rigorous courses taught at Queens College. I have completed various types of projects that developed my skills in Object Oriented Programming, Data Structures, Algorithms, and critical/ logical thinking.</p>
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid" id="skills-container">
+        <div class="row justify-content-center">
+          <h2 class="font" style="margin-bottom: 30px; font-size: 40px">Skills & Technologies</h2>
+          <div class="card-deck col-md-10" style="margin-bottom: 10px">
+            <div class="card skill-card border-0">
+              <i class="fab fa-js-square skill-icon"></i>
+              <h5>Javascript</h5>
             </div>
-
-            <div class="container-fluid" id="projects-container">
-                <div class="row justify-content-center">
-                    <h2 class="font">Working with the Web</h2>
-                    <div class="card-deck" id="projects-row-1" style="padding: 15px">
-                        <div class="card col-md-3">
-                            <div class="card-body text-center">
-                              <h5 class="card-title">Mini Jukebox</h5>
-                              <p class="card-text cardp">HTML/CSS, Javascript, Express, EJS, Postgres, Heroku</p>
-                              <a href="https://vast-taiga-12168.herokuapp.com/mediasearch" class="project-link">Link Here</a>
-                            </div>
-                        </div>
-                        <div class="card col-md-3">
-                            <div class="card-body text-center">
-                              <h5 class="card-title">Youtube Clone</h5>
-                              <p class="card-text cardp">HTML/CSS, Javascript, React, JSX</p>
-                              <a href="https://github.com/kimlalman28/YouTube-Clone" class="project-link">Link Here</a>
-                            </div>
-                        </div>
-                        <div class="card col-md-3">
-                            <div class="card-body text-center">
-                              <h5 class="card-title">Portfolio/Blog</h5>
-                              <p class="card-text cardp">HTML/CSS, Javascript, Express, EJS, Postgres, Heroku</p>
-                              <a href="https://radiant-headland-87323.herokuapp.com/portfolio" class="project-link">Link Here</a>
-                            </div>
-                        </div>
-                        <div class="card col-md-3">
-                            <div class="card-body text-center">
-                              <h5 class="card-title">Bookshelf</h5>
-                              <p class="card-text cardp">Java</p>
-                              <a href="https://github.com/kimlalman28/Bookshelf" class="project-link">Link Here</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="row justify-content-center text-center" style="margin-top: 40px">
-                    <h2 class="font">Working with Algorithms & Notable Projects</h2>
-                    <div class="card-deck" style="padding: 15px">
-                        <div class="card col-md-3">
-                            <div class="card-body text-center">
-                              <h5 class="card-title">Image Processing</h5>
-                              <p class="card-text cardp">Java & C++</p>
-                              <a href="https://github.com/kimlalman28/Image-Processing" class="project-link">Link Here</a>
-                            </div>
-                        </div>
-                        <div class="card col-md-3">
-                            <div class="card-body text-center">
-                              <h5 class="card-title">Comparison Sorts</h5>
-                              <p class="card-text cardp">Java</p>
-                              <a href="https://github.com/kimlalman28/Sorting_Algorithms/tree/master/src" class="project-link">Link Here</a>
-                            </div>
-                        </div>
-                        <div class="card col-md-3">
-                            <div class="card-body text-center">
-                              <h5 class="card-title">Snowman World</h5>
-                              <p class="card-text cardp">C++, OpenGL</p>
-                              <a href="https://github.com/kimlalman28/Snowman_World/blob/master/src/Snowman_World.cpp" class="project-link">Link Here</a>
-                            </div>
-                        </div>
-                        <div class="card col-md-3">
-                            <div class="card-body text-center">
-                              <h5 class="card-title">More...</h5>
-                              <p class="card-text cardp">Course Work, Data Structures, Learning Projects</p>
-                              <a href="https://github.com/kimlalman28" class="project-link">Link Here</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+            <div class="card skill-card border-0">
+              <i class="fab fa-node-js skill-icon"></i>
+              <h5>NodeJS</h5>
             </div>
-
-            <div class="container-fluid" id="contact-container">
-                <div class="row text-center">
-                    <div class="contact-item col-md-4">
-                        <a href="mailto:kimlalman28@gmail.com?Subject=Hello%20again"><i class="fas fa-envelope"></i></a>
-                    </div>
-                    <div class="contact-item col-md-4">
-                        <a href="https://www.linkedin.com/in/kimberlylalmansingh/" target="_blank"><i class="fab fa-linkedin"></i></a>
-                    </div>
-                    <div class="contact-item col-md-4">
-                        <a href="https://github.com/kimlalman28" target="_blank"><i class="fab fa-github-square"></i></a>
-                    </div>
-                </div>
+            <div class="card skill-card border-0">
+              <img class="my-auto" src="imgs/Expressjs.png">
+              <h5>Express</h5>
             </div>
-
-        <% include ./partials/footer %>
+            <div class="card skill-card border-0">
+              <img class="my-auto" src="imgs/jquery.png">
+              <h5>jQuery</h5>
+            </div>
+            <div class="card skill-card border-0">
+              <i class="fab fa-html5 card-img skill-icon"></i>
+              <h5>HTML5</h5>
+            </div>
+            <div class="card skill-card border-0">
+              <i class="fab fa-css3-alt skill-icon"></i>
+              <h5>CSS3</h5>
+            </div>
+          </div>
+          <div class="card-deck col-md-10" style="margin-bottom: 10px">
+            <div class="card skill-card border-0">
+              <img class="my-auto" src="imgs/mongodb.png">
+              <h5>MongoDB</h5>
+            </div>
+            <div class="card skill-card border-0">
+              <i class="fab fa-react card-img skill-icon"></i>
+              <h5>React</h5>
+            </div>
+            <div class="card skill-card border-0">
+              <img class="my-auto" src="imgs/java.png">
+              <h5>Java</h5>
+            </div>
+            <div class="card skill-card border-0">
+              <img class="my-auto" src="imgs/cpp.png">
+              <h5>C++</h5>
+            </div>
+            <div class="card skill-card border-0">
+              <img class="my-auto" src="imgs/bootstrap.svg">
+              <h5>Bootstrap</h5>
+            </div>
+            <div class="card skill-card border-0">
+              <img class="my-auto" src="imgs/sql.jpeg">
+              <h5>SQL</h5>
+            </div>
+          </div>
+          <div class="card-deck col-md-10" style="margin-bottom: 10px">
+            <div class="card skill-card border-0">
+              <i class="fab fa-github card-img skill-icon"></i>
+              <h6>Git/Github/Heroku</h6>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid" id="projects-container">
+        <div class="row justify-content-center">
+          <h2 class="font">Working with the Web</h2>
+          <div class="card-deck" id="projects-row-1" style="padding: 15px">
+            <div class="card col-md-3">
+              <div class="card-body text-center">
+                <h5 class="card-title">Mini Jukebox</h5>
+                <p class="card-text cardp">Javascript, Express, HTML, CSS, EJS, Postgres, Heroku</p>
+                <a href="https://vast-taiga-12168.herokuapp.com/mediasearch" class="project-link"><i class="fas fa-external-link-alt fa-sm"></i></a>
+              </div>
+            </div>
+            <div class="card col-md-3">
+              <div class="card-body text-center">
+                <h5 class="card-title">Youtube Clone</h5>
+                <p class="card-text cardp">Javascript, React, HTML, CSS</p>
+                <a href="https://github.com/kimlalman28/YouTube-Clone" class="project-link"><i class="fab fa-github fa-lg"></i></a>
+              </div>
+            </div>
+            <div class="card col-md-3">
+              <div class="card-body text-center">
+                <h5 class="card-title">Portfolio/Blog</h5>
+                <p class="card-text cardp">Javascript, Express, HTML, CSS, EJS, Postgres, Heroku</p>
+                <a href="https://radiant-headland-87323.herokuapp.com/portfolio" class="project-link"><i class="fas fa-external-link-alt fa-sm"></i></a>
+              </div>
+            </div>
+            <div class="card col-md-3">
+              <div class="card-body text-center">
+                <h5 class="card-title">Bookshelf</h5>
+                <p class="card-text cardp">Java</p>
+                <a href="https://github.com/kimlalman28/Bookshelf" class="project-link"><i class="fab fa-github fa-lg"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row justify-content-center text-center" style="margin-top: 40px">
+          <h2 class="font">Working with Algorithms & Notable Projects</h2>
+          <div class="card-deck" style="padding: 15px">
+            <div class="card col-md-3">
+              <div class="card-body text-center">
+                <h5 class="card-title">Image Processing</h5>
+                <p class="card-text cardp">Java & C++</p>
+                <a href="https://github.com/kimlalman28/Image-Processing" class="project-link"><i class="fab fa-github fa-lg"></i></a>
+              </div>
+            </div>
+            <div class="card col-md-3">
+              <div class="card-body text-center">
+                <h5 class="card-title">Comparison Sorts</h5>
+                <p class="card-text cardp">Java</p>
+                <a href="https://github.com/kimlalman28/Sorting_Algorithms/tree/master/src" class="project-link"><i class="fab fa-github fa-lg"></i></a>
+              </div>
+            </div>
+            <div class="card col-md-3">
+              <div class="card-body text-center">
+                <h5 class="card-title">Snowman World</h5>
+                <p class="card-text cardp">C++, OpenGL</p>
+                <a href="https://github.com/kimlalman28/Snowman_World/blob/master/src/Snowman_World.cpp" class="project-link"><i class="fab fa-github fa-lg"></i></a>
+              </div>
+            </div>
+            <div class="card col-md-3">
+              <div class="card-body text-center">
+                <h5 class="card-title">More...</h5>
+                <p class="card-text cardp">Course Work, Data Structures, Learning Projects</p>
+                <a href="https://github.com/kimlalman28" class="project-link"><i class="fab fa-github fa-lg"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid" id="contact-container">
+        <div class="row text-center">
+          <div class="contact-item col-md-4">
+            <a href="mailto:kimlalman28@gmail.com?Subject=Hello%20again"><i class="fas fa-envelope"></i></a>
+          </div>
+          <div class="contact-item col-md-4">
+            <a href="https://www.linkedin.com/in/kimberlylalmansingh/" target="_blank"><i class="fab fa-linkedin"></i></a>
+          </div>
+          <div class="contact-item col-md-4">
+            <a href="https://github.com/kimlalman28" target="_blank"><i class="fab fa-github-square"></i></a>
+          </div>
+        </div>
+      </div>
+      <% include ./partials/footer %>
     </div>
-
-
-    </body>
+  </body>
 </html>

@@ -1,186 +1,162 @@
 body {
-	margin: 0; !important
-	padding: 0; !important
+margin: 0; !important
+padding: 0; !important
 }
-
-
 .font {
-	font-family: 'Courgette', cursive;
+font-family: 'Eagle Lake';
+color: white;
 }
-
-.page {
-	/*background-color: #F5D7DD;*/
-	height: 100%;
-}
-
-
-#nav {
-	width: 100%;
-	min-height: 50px;
-	background-color: #C7A3C8;
-}
-
-#nav a {
-	font-family: 'Courgette', cursive;
-	font-size: 20px;
-}
-
-#hero {
-	width: 100%;
-	height: 685px;
-	margin-top: 35px;
-	background-color: #EBF4F3;
-}
-
-#hero-div {
-	margin-top: 50px;
-	height: auto;
-	width: auto;
-}
-
-#hero-name {
-	color: #C7A3C8;
-	font-size: 65px;
-}
-
-#photo img {
-	height: 420px;
-	width: 380px;
-	border-radius: 50%;
-	margin-top: 80px;
-}
-
-#contact-container {
-	padding: 2%;
-	background-color: #EBF4F3;
-}
-
-.contact-item {
-	font-size: 180px;
-}
-
-.contact-item a {
-	color: #C7A3C8;
-}
-
-.contact-item a:hover {
-	color: pink;
-}
-
-#projects-container {
-	background-color: #C7A3C8;
-	padding: 3%;
-}
-
-.card-body {
-	/*background-color: #DDB3BC;*/
-}
-
-
-#projects-row-1 {
-	margin-top: 30px;
-}
-
-.project-link {
-	font-size: 10px;
-	color: black;
-}
-
-.cardp {
-	font-size: 13px;
-	color: #C7A3C8;
-	font-family: 'Courgette', cursive;
-}
-
-.card-title {
-	font-size: 20px;
-	/*color: #F1686A;*/
-	font-family: 'Courgette', cursive;
-}
-
-#description {
-	padding: 4%;
-/*	padding-left: 10%;
-	padding-right: 10%;*/
-	background-color: #C7A3C8;
-}
-
-#description p {
-	font-size: 20px;
-}
-
-#skills-container {
-	padding: 4%;
-}
-
-.skill-icon {
-	font-size: 100px;
-	padding: .4rem;
-}
-
-.skill-card {
-	align-items: center;
-}
-
-.skill-card img {
-	height: 80px;
-	width: 70px;
-}
-
-.skill-card h5, .skill-card h6 {
-	font-family: 'Courgette', cursive;
-	color: #C7A3C8;
-}
-
-#footer-container {
-	width: 100%,
-	height: 50px;
-	background-color: #C7A3C8;
-	bottom: 0;
-}
-
-#footer {
-	bottom: 0;
-	margin-top: 25px;
-}
-
-#footer p {
+.fontp {
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
 	color: white;
-	bottom: 0;
-	font-size: 9px;
 }
-
-@media screen and (max-width: 671px) {  
-   #photo img {
-   	width: 280px;
-   	height: 320px;
-   }
-
-   #hero {
-   	margin-top: 20px;
-   }
+.page {
+/*background-color: #F5D7DD;*/
+height: 100%;
 }
-
-/*@media screen and (max-width: 575px) {  
-	#projects-container {
-		margin-top: 55px;
-		margin-bottom: 50px;
-	}
-
-	#skills-container {
-		margin-bottom: 30px;
-	}
+#nav {
+width: 100%;
+min-height: 50px;
+background-color: #561F22;
 }
-
-@media screen and (max-width: 767px) {  
-	#contact-container {
-		margin-top: 55px;
-		margin-bottom: 50px;
-	}
+#nav a {
+font-family: 'Eagle Lake', cursive;
+font-size: 15px;
+color: white;
 }
-
-@media screen and (max-width: 656px) {  
-	#skills-container {
-		margin-bottom: 50px;
-	}
+#nav a:hover {
+	color: #F1686A;
+}
+#hero {
+width: 100%;
+height: 685px;
+margin-top: 35px;
+background-color: #F7F7F7;
+}
+#hero-div {
+margin-top: 50px;
+height: auto;
+width: auto;
+}
+#hero-name {
+color: #561F22;
+font-size: 45px;
+}
+#photo img {
+height: 420px;
+width: 380px;
+border-radius: 50%;
+margin-top: 80px;
+}
+#contact-container {
+padding: 2%;
+background-color: #F7F7F7;
+}
+.contact-item {
+font-size: 180px;
+}
+.contact-item a {
+color: #561F22;
+}
+.contact-item a:hover {
+color: #F1686A;
+}
+#projects-container {
+background-color: #561F22;
+padding: 3%;
+}
+.card-body {
+/*background-color: #DDB3BC;*/
+}
+#projects-row-1 {
+margin-top: 30px;
+}
+.project-link {
+position: absolute;
+color: black;
+bottom: 0;
+}
+.project-link:hover {
+color: #F1686A;
+}
+.cardp {
+font-size: 13px;
+color: #561F22;
+font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+.card-title {
+font-size: 20px;
+/*color: #F1686A;*/
+font-family: 'Eagle Lake';
+}
+#description {
+padding: 4%;
+/*	padding-left: 10%;
+padding-right: 10%;*/
+background-color: #561F22;
+}
+#description p {
+font-size: 20px;
+}
+#skills-container {
+padding: 4%;
+}
+.skill-icon {
+font-size: 100px;
+padding: .4rem;
+}
+.skill-card {
+align-items: center;
+}
+.skill-card img {
+height: 80px;
+width: 70px;
+}
+.skill-card h5, .skill-card h6 {
+font-family: 'Eagle Lake';
+color: #561F22;
+}
+#footer-container {
+width: 100%,
+height: 50px;
+background-color: #561F22;
+bottom: 0;
+}
+#footer {
+bottom: 0;
+margin-top: 25px;
+}
+#footer p {
+color: white;
+bottom: 0;
+font-size: 9px;
+}
+@media screen and (max-width: 671px) {
+#photo img {
+width: 280px;
+height: 320px;
+}
+#hero {
+margin-top: 20px;
+}
+}
+/*@media screen and (max-width: 575px) {
+#projects-container {
+margin-top: 55px;
+margin-bottom: 50px;
+}
+#skills-container {
+margin-bottom: 30px;
+}
+}
+@media screen and (max-width: 767px) {
+#contact-container {
+margin-top: 55px;
+margin-bottom: 50px;
+}
+}
+@media screen and (max-width: 656px) {
+#skills-container {
+margin-bottom: 50px;
+}
 }*/
