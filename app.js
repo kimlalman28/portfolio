@@ -1,4 +1,3 @@
-const functions = require('firebase-functions');
 const express = require('express');
 const port = process.env.PORT || 3000;
 const app = express();
@@ -16,5 +15,3 @@ app.get('/', (req, res) => {
 app.listen(port, () => {
 	console.log("App listening on port 3000");
 })
-
-exports.portfolio = functions.https.onRequest(app);
